@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sistema:
+    image: sistema
+    build:
+      context: ./sistema
+      dockerfile: Dockerfile
